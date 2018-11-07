@@ -12,6 +12,10 @@ values.each do |value|
   end
 end
 
+4.times do
+  cards << '{Jocker}'
+end
+
 cards.shuffle!
 
 puts 'How many cards do you want?'
