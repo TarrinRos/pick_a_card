@@ -12,8 +12,8 @@ values.each do |value|
   end
 end
 
-4.times do
-  cards << '{Jocker}'
+2.times do
+  cards << '[Jocker]'
 end
 
 cards.shuffle!
